@@ -1,0 +1,42 @@
+/* الاسم:رشاد  محمود بن عيسي 
+
+11-6-2023
+الملف يقوم بتنسيق صفحه الهوم
+
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color:#fff;
+    font-family:sans-serif;
+    font-weight: 400;
+     
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+    background:rgba(127, 255, 212, 0.707);
+    
+}
+.logo{
+    font-size: 1.4rem;
+    color:rgba(0, 0, 255, 0.742);
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+}
+.menu a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size:20px ;
+    margin-left:30px ;
+    color:blue;
+}
